@@ -58,4 +58,7 @@ document.querySelector('.again').addEventListener('click', function () {
 
     // 3. Empty the number input
     document.querySelector('.guess').value = '';
+
+    // 4. Randomize the number again
+    secretNumber = Math.trunc(Math.random() * 20 + 1);
 });
